@@ -4,12 +4,26 @@
   <meta charset="UTF-8">
   <title>HTML/CSS Demo App</title>
   <link rel="stylesheet" href="style.css">
-  <style id="style-demo"></style>
 </head>
 <body>
-<div id="html-area" contenteditable="true"></div>
-<div id="css-area" contenteditable="true"></div>
-<div id="demo-area"></div>
+<div id="html-area" contenteditable="true">&lt;main&gt;
+  &lt;h1&gt;Lighthouse Labs&lt;/h1&gt;
+  &lt;h2&gt;Learn to code HTML and CSS&lt;/h2&gt;
+&lt;/main&gt;</div>
+<div id="css-area" contenteditable="true">main {
+  color: #002040;
+  font-family: Arial;
+  padding: 25px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}</div>
+<div id="demo-container">
+  <style id="style-demo" scoped="scoped"></style>
+  <div id="demo-area"></div>
+</div>
 <img src="lighthouse-labs.png" id="brand">
 <script src="jquery.min.js"></script>
 <script src="script.js"></script>
