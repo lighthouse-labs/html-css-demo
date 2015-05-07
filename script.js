@@ -8,5 +8,9 @@ $(function () {
     styleDemo.text(cssArea.text());
   }
   redrawDemo();
+  htmlArea.focus();
   $(document).on('keyup', redrawDemo);
+  $('#reset-button').on('click', function () {
+    location.reload();
+  })
 });

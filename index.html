@@ -8,23 +8,26 @@
 <body>
 <div id="html-area" contenteditable="true">&lt;main&gt;
   &lt;h1&gt;Lighthouse Labs&lt;/h1&gt;
-  &lt;h2&gt;Learn to code HTML and CSS&lt;/h2&gt;
+  &lt;p&gt;Learn to code HTML and CSS&lt;/p&gt;
+  &lt;h2&gt;Write code to see it here!&lt;/h2&gt;
+  &lt;img src="lighthouse-labs.png"&gt;
 &lt;/main&gt;</div>
 <div id="css-area" contenteditable="true">main {
   color: #002040;
   font-family: Arial;
   padding: 25px;
+  text-align: center;
 }
 
-h1,
 h2 {
-  text-align: center;
+  font-size: 40px;
 }</div>
 <div id="demo-container">
   <style id="style-demo" scoped="scoped"></style>
   <div id="demo-area"></div>
 </div>
-<img src="lighthouse-labs.png" id="brand">
+<a id="reset-button" href="javascript:">reset</a>
+<a id="brand" href="http://lighthouselabs.ca/" target="_blank"><img src="lighthouse-labs.png"></a>
 <script src="jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
