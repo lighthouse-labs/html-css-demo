@@ -3,5 +3,5 @@
 #css-area,
 #html-area { background: rgb(230,230,230); box-sizing: border-box; font: 24px/30px monospace; height: 50%; left: 0; overflow: auto; outline: none; padding: 1em; position: absolute; top: 0; white-space: pre-wrap; width: 37.5%; }
 #css-area { background: rgb(215,215,215); top: 50%; }
-#demo-area { height: 100%; left: 37.5%; position: absolute; top: 0; width: 62.5%; }
+#demo-area { height: 100%; left: 37.5%; overflow: auto; position: absolute; top: 0; width: 62.5%; }
 #reset-button { background: red; border-radius: 50%; color: red; height: 50px; overflow: hidden; position: absolute; right: 10px; top: 10px; width: 50px; }
